@@ -1,0 +1,576 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width:480px){
+
+    section#sec1{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    p#apresent{
+        position: absolute;
+        margin-top: 80px;
+        font-size: 30px;
+        text-shadow:  
+      1px -1px 0 #2f5d87, 
+      2px -2px 0 #2e5a83, 
+      3px -3px 0 #2d5880, 
+      4px -4px 0 #2b557c, 
+      5px -5px 0 #2a5378, 
+      6px -6px 0 #295074, 
+      7px -7px 0 #274d71, 
+      8px -8px 0 #264b6d, 
+      9px -9px 0 #254869, 
+      10px -10px 0 #234665, 
+      11px -11px 0 #224361, 
+      12px -12px 0 #21405e, 
+      13px -13px 12px rgba(0, 0, 0, 0.55), 
+      13px -13px 1px rgba(0, 0, 0, 0.5);
+    }
+
+    #conteudo2{
+        visibility: hidden;
+    }
+
+    #btngaleria{
+        top: 200px;
+    }
+
+    #btnescondido{
+        top: 240px;
+        visibility: visible;
+    }
+
+    p.texthome{
+        font-size: 22px;
+        font-weight: bolder;
+        padding-top: 55px;
+    }
+
+    div#bloco1{
+        margin-top: 288px;
+    }
+
+    div#ft1{
+        width: 100%;
+    }
+    
+    div#lado1{
+        border-top: solid #fff 2px;
+        background-color: #000;
+        opacity: 80%;
+        position: absolute;
+        width: 100%;
+    }
+
+    div#ft2{
+        width: 100%;
+    }
+    
+    div#lado2{
+        background-color: #2b77b4;
+        opacity: 80%;
+        width: 100%;
+        position: absolute;
+    }
+
+    div#ft3{
+        width: 100%;
+    }
+    
+    div#lado3{
+        background-color: #000;
+        opacity: 80%;
+        width: 100%;
+        position: absolute;
+        border-bottom: solid #fff 2px;
+    }
+
+    p#missao{
+        font-size: 16px;
+    }
+}
+
+@media (min-width:481px){/*tablets e smartphones grandes*/
+
+    section#sec1{
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+
+    p#apresent{
+        position: absolute;
+        margin-top: 90px;
+        font-size: 45px;
+        text-shadow:  
+      1px -1px 0 #2f5d87, 
+      2px -2px 0 #2e5a83, 
+      3px -3px 0 #2d5880, 
+      4px -4px 0 #2b557c, 
+      5px -5px 0 #2a5378, 
+      6px -6px 0 #295074, 
+      7px -7px 0 #274d71, 
+      8px -8px 0 #264b6d, 
+      9px -9px 0 #254869, 
+      10px -10px 0 #234665, 
+      11px -11px 0 #224361, 
+      12px -12px 0 #21405e, 
+      13px -13px 12px rgba(0, 0, 0, 0.55), 
+      13px -13px 1px rgba(0, 0, 0, 0.5);
+    }
+
+    #conteudo2{
+        visibility: hidden;
+    }
+
+    #btngaleria{
+        top: 305px;
+    }
+
+    #btnescondido{
+        top: 373px;
+        visibility: visible;
+    }
+
+    p.texthome{
+        font-size: 22px;
+        font-weight: bold;
+        padding-top: 45px;
+    }
+
+    div#bloco1{
+        margin-top: 468px;
+    }
+
+    div#ft1{
+        width: 100%;
+    }
+    
+    div#lado1{
+        border-top: solid #fff 2px;
+        background-color: #000;
+        opacity: 80%;
+        position: absolute;
+        width: 100%;
+    }
+
+    div#ft2{
+        width: 100%;
+    }
+    
+    div#lado2{
+        background-color: #2b77b4;
+        opacity: 80%;
+        width: 100%;
+        position: absolute;
+    }
+
+    div#ft3{
+        width: 100%;
+    }
+    
+    div#lado3{
+        background-color: #000;
+        opacity: 80%;
+        width: 100%;
+        position: absolute;
+        border-bottom: solid #fff 2px;
+    }
+
+    p#missao{
+        font-size: 18px;
+    }
+
+}
+
+@media (min-width:769px){/*laptop, tablet grande e desktops pequenos*/
+
+    section#sec1{
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+
+    #conteudo2{
+        visibility: visible;
+    }
+
+    p#apresent{
+        margin-top: 110px;
+        font-size: 45px;
+        text-shadow:  
+      1px -1px 0 #2f5d87, 
+      2px -2px 0 #2e5a83, 
+      3px -3px 0 #2d5880, 
+      4px -4px 0 #2b557c, 
+      5px -5px 0 #2a5378, 
+      6px -6px 0 #295074, 
+      7px -7px 0 #274d71, 
+      8px -8px 0 #264b6d, 
+      9px -9px 0 #254869, 
+      10px -10px 0 #234665, 
+      11px -11px 0 #224361, 
+      12px -12px 0 #21405e, 
+      13px -13px 12px rgba(0, 0, 0, 0.55), 
+      13px -13px 1px rgba(0, 0, 0, 0.5);
+    }
+
+    #btnescondido{
+        visibility: hidden;
+    }
+
+    #btngaleria{
+        top: 322px;
+    }
+
+    p.texthome{
+        font-size: 24px;
+        font-weight: bold;
+        padding-top: 41px;
+    }
+
+    div#bloco1{
+        margin-top: 468px;
+    }
+
+    div#ft1{
+        width: 38%;
+    }
+    
+    div#lado1{
+        position: relative;
+        opacity: 100%;
+        background-color: #151416;
+        width: 62%;
+        border: none;
+    }
+
+    div#ft2{
+        width: 50%;
+    }
+    
+    div#lado2{
+        background-color: #2b77b4;
+        opacity: 100%;
+        width: 50%;
+    }
+
+    div#ft3{
+        width: 45%;
+    }
+    
+    div#lado3{
+        position: relative;
+        background-color: #151416;
+        opacity: 100%;
+        width: 55%;
+        border: none;
+    }
+
+    p#missao{
+        font-size: 18px;
+    }
+
+}
+
+#controle{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 180px;
+    height: 200px;
+    background-color: orange;
+    opacity: 0%;
+}
+
+body{
+    /*background-color: #45404b;*/
+    /*background-color: #151416;*/
+    background-image: url("./image/ft3.jpg");
+    
+}
+
+header#fundolg{
+    background-color: #2b77b4;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 1;
+    /*border-bottom: #fff 1px solid;*/
+}
+
+main{
+    position: relative;
+    margin: auto;
+    max-width: 1080px;
+}
+
+nav{
+    /*background-color:yellow;*/
+    background-color: #2b77b4;
+    opacity: 95%;
+    width: 270px;
+    height: 100%;
+    right:-270px;
+    position: absolute;
+    transition: all .5s;
+    position: fixed;
+    z-index: 2;
+}
+
+/*removendo bullets e alinhando a direita*/
+ul {
+    list-style: none;
+    top:60px;
+    position: absolute;/*ocupa espaço do pai(com position:relative)*/
+    width: 100%;
+    padding-left: 0px;
+}
+
+li {
+    font-size: 16px;
+}
+
+/*li {
+    display: inline-block;
+} deixa menu em linha*/
+
+a {/*sem display: block se aplica apenas ao conteudo do link e não a area*/
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 7px;
+    display: block;/*ocupa todo area da qual esta localizada(nav)*/
+    font-weight: bold;
+}
+
+a:hover {
+    background:#fff;
+    color: #2b77b4;
+    -moz-box-shadow: 0 3px 10px 0 #CCC;
+    -webkit-box-shadow: 0 3px 10px 0 #ccc;
+    text-shadow: 0px 0px 5px #fff;
+}
+
+label#menu{
+    position: relative;
+    float: right;
+    width: 59px;
+    height: 50px;
+    z-index: 3;
+    cursor: pointer;
+    background-color:#2b77b4;
+}
+
+label#nome{
+    font-size: 18px;
+}
+
+label#area{
+    font-size: 18px;
+}
+
+label#conhecimentos{
+    margin-top: 9px;
+    font-size: 16px;
+}
+
+input[type="checkbox"]{/*esconder todos checkbox*/
+    display: none;
+}
+
+input[type="checkbox"]:checked ~ nav{/*quando for acionado gera um evento no nav*/
+    transform: translateX(-270px);/*mexer no eixo X, ou seja, de forma horizontal*/
+}
+
+input#nome{
+    width: 204px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 14px;
+}
+
+section#sec1{
+    position: absolute;
+    width: 100%;
+}
+
+select{
+    width: 204px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 26px;
+}
+
+textarea{
+    margin-top: 10px;
+}
+
+span{
+    color:#151416;
+    background:white;
+    font-weight:bold;
+}
+
+div#conteudo2{
+    background-color: #2b77b4c0;
+    margin-top: 80px;
+    width: 331px;
+    border-radius: 3%;
+    /*height: 230px;*/
+    color: #fff;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    float: right;
+}
+
+div#bloco1{
+    position: relative;
+    display: inline-block;
+    /*background-color: #ccc;*/
+    width: 100%;
+    height: 200px;
+}
+
+div#ft1{
+    float: left;
+    /*background-color: yellow;*/
+    background-image: url("./image/programador.jpg");
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+div#lado1{
+    height: 200px;
+    float: right;
+}
+
+div#bloco2{
+    position: relative;
+    display: inline-block;
+    /*background-color: #ccc;*/
+    width: 100%;
+    height: 200px;
+}
+
+div#ft2{
+    float: right;
+    /*background-color: yellow;*/
+    background-image: url("./image/espalhar.jpg");
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+div#lado2{
+    height: 200px;
+    float: left;
+}
+
+div#bloco3{
+    position: relative;
+    display: inline-block;
+    /*background-color: #ccc;*/
+    width: 100%;
+    height: 200px;
+}
+
+div#ft3{
+    float: left;
+    /*background-color: yellow;*/
+    background-image: url("./image/ensinando.jpg");
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+div#lado3{
+    height: 200px;
+    float: right;
+}
+
+/*div#conteudohome{
+    margin-top: 40px;
+    padding: 15px;
+    background-color: #fff;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}*/
+
+p#apresent{
+    position: absolute;
+    color: #fff;
+    font-family: monospace;
+    font-weight: bold;
+    text-align: left;
+}
+
+p.texthome{
+    max-width: 400px;
+    max-height: 100px;
+    padding-left: 7px;
+    padding-right: 7px;
+    text-align: center;
+    letter-spacing: 0.7px;
+    color: #fff;
+}
+
+p#txt1{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p#cadastro{
+    font-size: 26px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    display: block;
+    text-align: left;
+}
+
+#btnhome{
+    margin-top: 10px;
+}
+
+#btngaleria{
+    position: absolute;
+}
+
+#btnescondido{
+    position: absolute;
+}
+
+p#missao{
+    color: #fff;
+}
+
+img#logo{
+    position: absolute;
+    width: 250px;
+    right: 0%;
+}
+
+img#menu{
+    text-align: left;
+    width: 30px;
+    height: 25px;
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 14px;
+}
+
+footer.rodape {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    background-color: #2b77b4;
+    color: #fff;
+    /*border-top: solid 3px #fff;*/
+    font-weight: normal;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
